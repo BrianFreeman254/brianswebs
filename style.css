@@ -1,0 +1,91 @@
+/* General Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header and Welcome Section */
+header {
+    background-color: #006400; /* Dark green like Cooperative Bank */
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header .welcome h1 {
+    font-size: 2.5em;
+}
+
+header .quote p {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #228B22; /* Green Navigation */
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.2em;
+}
+
+/* Content Sections */
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.content-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.content-section img, video {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: #006400;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+footer .social-links a {
+    margin: 0 10px;
+    color: #87CEEB; /* Light Blue for contrast */
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    color: #00BFFF; /* Slight hover effect */
+}
